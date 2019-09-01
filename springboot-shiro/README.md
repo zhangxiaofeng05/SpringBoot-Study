@@ -4,6 +4,7 @@
 |SpringBoot|2.1.7.RELEASE|
 |mysql|5.6|
 |druid|1.1.20|
+|mybatis|2.1.0|
 |shiro|1.4.0|
 |thymeleaf|2.1.7.RELEASE|
 
