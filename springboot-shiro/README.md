@@ -1,6 +1,8 @@
 ## shiro权限
 |名称|版本|
 |----|----|
+|系统|win10|
+|jdk|1.8|
 |SpringBoot|2.1.7.RELEASE|
 |mysql|5.6|
 |druid|1.1.20|
@@ -23,7 +25,7 @@ clone本项目运行(idea)
 
 ## 认证和授权
 核心API  
-Subject 用户主体(把操作交给SecurityManager)
+Subject 用户主体(把操作交给SecurityManager)  
 SecurityManager 安全管理器(关联Ralm)  
 Realm：shiro连接数据的桥梁
 
