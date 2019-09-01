@@ -45,6 +45,15 @@ public class UserController {
         return "test";
     }
 
+    //登出
+    @RequestMapping("/logout")
+    @ResponseBody
+    public String logout(){
+        Subject subject = SecurityUtils.getSubject();
+        subject.logout();
+        return "成功登出";
+    }
+
     /**
      * 登录逻辑处理
      */
