@@ -3,6 +3,7 @@
 |----|----|
 |系统|win10|
 |jdk|1.8|
+|maven|3.6.1|
 |SpringBoot|2.1.7.RELEASE|
 |mysql|5.6|
 |druid|1.1.20|
